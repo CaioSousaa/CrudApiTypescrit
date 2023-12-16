@@ -1,14 +1,6 @@
-import {
-  FastifyInstance,
-  FastifyPluginOptions,
-  FastifyRequest,
-  FastifyReply,
-} from "fastify";
+import { FastifyInstance, FastifyPluginOptions, FastifyRequest, FastifyReply } from "fastify";
 
-export async function routes(
-  fastify: FastifyInstance,
-  options: FastifyPluginOptions
-) {
+export async function routes(fastify: FastifyInstance, options: FastifyPluginOptions) {
   fastify.get("/test", async (request: FastifyRequest, reply: FastifyReply) => {
     return { ok: true };
   });
