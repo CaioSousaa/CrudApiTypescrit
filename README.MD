@@ -6,7 +6,7 @@
 
 ---
 
-Este crud foi feito no intuito de estudo e aprofundamento de novas teconolias. Onde basicamente utilizei o framework Fastify combinado com o banco de dados não relacional MongoDB, porem não foi aplicado as melhores práticas que o Fastify propaga. O crud consiste na criação, listagem, deletamento e atualização de seus clientes. Ademais, esse projeto foi um passo fundamental nos meus estudos para que eu possa me tornar um profissional com mais repertorio.
+Este crud foi feito no intuito de estudo e aprofundamento de novas tecnologias. Onde basicamente utilizei o framework Fastify combinado com o banco de dados não relacional MongoDB, porém não foi aplicado as melhores práticas que o Fastify propaga. O crud consiste na criação, listagem, deletamento e atualização de seus clientes. Ademais, esse projeto foi um passo fundamental nos meus estudos para que eu possa me tornar um profissional com mais repertório.
 
 ---
 
