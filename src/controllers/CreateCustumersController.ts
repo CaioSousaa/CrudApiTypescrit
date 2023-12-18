@@ -7,7 +7,7 @@ class CreateCustumersController {
 
     const costumerService = new CreateCustumersService();
 
-    const costumer = await costumerService.execute();
+    const costumer = await costumerService.execute({ name, email });
 
     reply.send(costumer);
   }
